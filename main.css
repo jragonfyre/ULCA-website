@@ -12,8 +12,6 @@ body {
     --bright-blue: #5c8fff;
     --gold-highlight: #f5ca5d;
     --default-text: #111;
-	/* background: white;
-	color: black; */
     background: var(--light-grey-blue);
     color: var(--default-text);
 }
@@ -30,16 +28,30 @@ div.text-container {
 
 div.dark-bg {
     background: var(--dark-grey-blue);
-    /*color: var(--gold-highlight);*/
+    color: var(--light-grey-blue);
 }
 
 .dark-bg h1 {
-    color: var(--gold-hightlight);
+    color: var(--gold-highlight);
     margin: 0px;
 }
-.dark-bg p, .dark-bg span, {
+.dark-bg p, .dark-bg span {
     color: var(--light-grey-blue);
     margin: 5px 0px 0px 0px;
+}
+.dark-bg a:link {
+    color: #adb9f2;
+}
+.dark-bg a:visited {
+    color: #cd99b2;
+}
+
+a:link {
+    color: #2020a0;
+}
+
+a:visited {
+    color:
 }
 
 div h1 {
