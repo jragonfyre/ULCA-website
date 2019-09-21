@@ -1,0 +1,50 @@
+/*
+ * main.css
+ * Copyright (C) 2019 jasonsch
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+    --text-bg-color: #eee;
+    --light-grey-blue: #d2def7;
+    --dark-grey-blue: #273554;
+    --bright-blue: #5c8fff;
+    --gold-highlight: #f5ca5d;
+    --default-text: #111;
+	/* background: white;
+	color: black; */
+    background: var(--light-grey-blue);
+    color: var(--default-text);
+}
+
+div.round-box, div.text-container {
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+}
+
+div.text-container {
+    background: var(--text-bg-color);
+}
+
+div.dark-bg {
+    background: var(--dark-grey-blue);
+    /*color: var(--gold-highlight);*/
+}
+
+.dark-bg h1 {
+    color: var(--gold-hightlight);
+    margin: 0px;
+}
+.dark-bg p, .dark-bg span, {
+    color: var(--light-grey-blue);
+    margin: 5px 0px 0px 0px;
+}
+
+div h1 {
+    margin: 0px;
+}
+
+
+

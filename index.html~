@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<!-- Go through all the generic content and replace with your own data. -->
+<html>
+<head>
+<title>Jason Schuchardt, UCLA Math</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="author" content="Jason Schuchardt"> 
+<!-- Special styles or stylesheet link come before mathnet.css -->
+<style type="text/css"><!--
+    .aboutme dt, .location { font-weight: bold; }
+></style>
+<link href="main.css" rel="stylesheet" type="text/css">
+<!--<link href="/styles/mathnet.css" rel="stylesheet" type="text/css">-->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="main.js"></script>
+</head>
+
+<body>
+<!-- For the following #include to work, the file must be called index.shtml -->
+<!-- If you aren't using #include, call it index.html -->
+<!--(if you want the banner and navigation bar remove all in parens)#include virtual="/styles/top.incl" -->
+
+<!-- To reveal the valid-HTML icons, remove this line and the ending coment
+<div style="text-align:right">
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+<img src="/images/valid-css.png" alt="Valid CSS"></a> 
+<a href="http://validator.w3.org/check?uri=referer">
+<img src="/images/valid-html40.png" alt="Valid HTML 4.0 Transitional"></a> 
+</div>
+    Ending comment, remove to reveal valid-HTML logo (and make SURE it passes!) -->
+
+<!-- To reveal the image, remove this line and the ending comment; float can be left or right
+<img src="mugshot.jpg" width="25%" style="float:right; margin-top: 1em"
+    alt="Portrait of Your Name">
+    Ending comment, remove to reveal image --><!-- Change name, 4 places -->
+
+<div class="round-box dark-bg">
+<h1>Jason Schuchardt</h1> 
+<p> PhD Student at the 
+<a href="https://www.ucla.edu/">UCLA</a> 
+<a href="https://www.math.ucla.edu/">Mathematics Department
+</a>
+</div>
+
+<div class="text-container">
+  <table style="border-width: 1.5em">
+  <col width="20%"><col width="80%">
+    <tr>
+      <td class=location>Office	
+      <td>MS 2350 
+    <tr>
+      <td class=location>Office Hours	
+      <td>TBD
+    <tr>
+      <td class=location>E-Mail		
+      <td>
+        <span class="my_email">For security reasons, you must enable Javascript to view email</span>
+    <tr>
+      <td class=location>Phone		
+      <td> N/A
+  </table>
+</div>
+
+<!--<hr>-->
+
+<dl class=aboutme>
+
+<dt>Teaching
+<dd><ul>
+    <li>Fall 2019: <a href="32b.1.07f/"> TODO </a>: 
+    </ul>
+
+<dt>Research Interests
+<dd><ul>
+    <li>Research Interest #1
+    <li>Research Interest #2
+    </ul>
+
+<!--<dt>Recent Papers
+<dd><ul>
+    <li>Your Name, Second Author, Title of Paper, BigJournal 40 (2004), 137-146.
+	(<a href="pub/paper1.pdf">PDF file</a>)
+	(<a href="http://front.math.ucdavis.edu/0705.0207">arXiv link</a>)
+    </ul>
+-->
+
+<dt>About Me
+<dd><ul>
+    <li><a href="CV.pdf">My Curriculum Vitae</a>
+    <li><a href="research.pdf">My Research Statement</a>
+    </ul>
+
+</dl>
+
+
+<!--(if you want the footer and search box remove all in parens)#include virtual="/styles/foot.incl" -->
+</body>
+</html>
