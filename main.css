@@ -51,12 +51,15 @@ a:link {
 }
 
 a:visited {
-    color:
+    color: #6020a0;
 }
 
 div h1 {
     margin: 0px;
 }
 
+.dark-override.bg-dark {
+    background: var(--dark-grey-blue)!important;
+}
 
 
